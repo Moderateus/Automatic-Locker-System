@@ -34,5 +34,8 @@ Hello everyone. This is a project of an automated locker system with the app tha
 
 * Run The App With A Mock Database: python -m schliessfach -dbinit = 'Demo'
 
+### P.S.
+I'm sorry that I don't collect all the .png files into one folder because I was in a hurry back when I created this project, and I am a bit lazy to make changes to my code, so please forgive me.
+
 ## WARNING
 Please note that this project uses SMTP for emailing users and administrators. Before you run this project, please go to 'observer.py', find the observer classes. You will find a method called 'update' for each observer class. In the variable 'emailer', input your own email and password as the argument in the 'Emailer' class parameter.
