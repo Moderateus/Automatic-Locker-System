@@ -33,3 +33,6 @@ Hello everyone. This is a project of an automated locker system with the app tha
 * Run The Program/App With The Previous Database Tables: python -m schliessfach -dbinit = 'False'
 
 * Run The App With A Mock Database: python -m schliessfach -dbinit = 'Demo'
+
+### WARNING
+Please note that this project uses SMTP for emailing users and administrators. Before you run this project, please go to 'observer.py', find the observer classes. You will find a method called 'update' for each observer class. In the variable 'emailer', input your own email and password as the argument in the 'Emailer' class parameter.
