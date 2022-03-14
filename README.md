@@ -28,7 +28,7 @@ Hello everyone. This is a project of an automated locker system with the app tha
 * Locker Box (You can custom build this.)
 
 ## ## How To Run This Project
-* Run The Program/App With Fresh New Database Tables: python -m schliessfach-dbinit = 'True'
+* Run The Program/App With Fresh New Database Tables: python -m schliessfach -dbinit = 'True'
 
 * Run The Program/App With The Previous Database Tables: python -m schliessfach -dbinit = 'False'
 
